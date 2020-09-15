@@ -31,16 +31,16 @@ p {
 }
 @media screen and (max-width: 1440px) {
   body {
-    background-color: MediumSeaGreen;
+    background-color: White;
 }
 }
 @media screen and (max-width: 1000px) {
   body {
-    background-color: Yellow;
+    background-color: Gray;
 }
 }
 @media screen and (max-width: 500px) {
   body {
-    background-color: Red;
+    background-color: MediumSeaGreen;
 }
 }
