@@ -1,4 +1,6 @@
-
+.arial{
+  font-family: arial;
+}
 .btn{
   width: 200px;
   height: 50px;
@@ -11,12 +13,9 @@
   background-color: #A2D9CE;
 }
 .container {
-  background-image:
-}
-.container {
-  background-image: url(https://images.unsplash.com/photo-1565503646259-7377b4bb2301?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80);
+  background-image: url(../img/unsplash-img.jpg);
   background-size: cover;
   height:700px;
-  margin: 0 auto;
-  width:50%;
+  margin: 50px auto;
+  width:100%;
 }
