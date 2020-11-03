@@ -22,7 +22,7 @@
 .container2 {
   background-image: url(../img/PenguinMock.png);
   background-size: cover;
-  height: 700px;
+  height: 100%;
   margin: 50px auto;
   width: 100%;
 }
