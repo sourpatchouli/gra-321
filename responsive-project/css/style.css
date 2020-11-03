@@ -2,6 +2,51 @@
 
 
 
+body {
+  margin: 45px;
+  background-color: #CDC1B4;
+}
+
+.dropbtn {
+  background-color: #CDC1B4;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: none;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+  top: 45px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 100px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #3B573C;
+  padding: 10px 9px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  font-weight: 600;
+}
+
+.show {display: block;}
 
 
 
@@ -9,8 +54,14 @@
 
 
 
-@media only screen and (max-width: 320px){
 
+
+
+@media only screen and (max-width: 500px){
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
 
 
 
