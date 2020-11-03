@@ -22,9 +22,7 @@
 .container2 {
   background-image: url(../img/PenguinMock.png);
   background-size: cover;
-  height: 100%;
   margin: 50px auto;
-  width: 100%;
 }
 p {
   font-family: arial, sans-serif;
