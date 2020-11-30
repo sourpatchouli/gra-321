@@ -22,41 +22,42 @@
         </button>
 
         <div id="myDropdown" class="dropdown-content">
-          <a href="#about">ABOUT</a>
-          <a href="#menu">MENU</a>
-          <a href="#address">ADDRESS</a>
-          <a href="#contact">CONTACT</a>
+          <ul class="topnav" id="topnav">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#address">ADDRESS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
         </div>
 
       </div>
 
 
-      <br>
-      <br></br>
-      <div id="about">
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <div class="about" id="about">
+
       <center> <h1>About</h1> </center>
       <center> <h3>Welcome to Carly's Café</h3> </center>
       <center> <h3>"Cooler than Charlie's"</h3> </center>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
       </div>
-      <br></br>
+
 
 
       <div class="slideshow-container">
 
       <div class="mySlides fade">
-        <div class="numbertext"> </div>
+        <div class="numbertext"></div>
         <img src="https://sourpatchouli.github.io/gra-321/responsive-project/img/cafe2-01.jpg" style="width:100%">
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext"> </div>
+        <div class="numbertext"></div>
         <img src="https://sourpatchouli.github.io/gra-321/responsive-project/img/plant1-01.jpg" style="width:100%">
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext"> </div>
+        <div class="numbertext"></div>
         <img src="https://sourpatchouli.github.io/gra-321/responsive-project/img/whiteroom1.jpg" style="width:100%">
       </div>
 
@@ -68,10 +69,10 @@
         <span class="dot"></span>
         <span class="dot"></span>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <div id="menu">
+
+      <div class="menu" id="menu">
     <center> <h1>Menu</h1> </center>
-      <br>
+
       <div class="columns">
         <div class="column-block one">
           <h2> Food </h2>
@@ -110,7 +111,7 @@
         </div>
       </div>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 
 
@@ -140,18 +141,16 @@
         <span class="dot2"></span>
         <span class="dot2"></span>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <div id="address">
+
+      <div class="address" id="address">
       <center>
         <h1> Address </h1>
-        <br>
-        <h3> 909 N 1st St, Phoenix, AZ 85004 </h3></br>
+        <h3> 909 N 1st St, Phoenix, AZ 85004 </h3>
       </center>
       </div>
-      <div id="contact">
+      <div class="contact" id="contact">
       <center>
       <h1> Contact Us </h1>
-      <br>
       <h3> Jynweythek Ylow </h3>
       <h3> Manager </h3>
       <h3> 480.636.0105 </h3>
@@ -163,7 +162,7 @@
       <a href="https://instagram.com"> <img src="https://sourpatchouli.github.io/gra-321/responsive-project/img/instagram.png">
       </div>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br>
+
 
 
       <script>
@@ -172,7 +171,7 @@
       document.getElementById("myDropdown").classList.toggle("show");
     }
 
-
+console.log("Working");
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
